@@ -1,0 +1,234 @@
+
+/* events */
+.events-section{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.events-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--tertiary);
+}
+.event-text{
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+}
+.events-section .carousel-item{
+    transition: all 1s ease;
+}
+/* About US */
+.about-us{
+    background-color: var(--tertiary);
+    padding: 50px 0;
+
+}
+.about-us .row{
+    padding: 50px;
+}
+
+/* counter */
+.counter-section{
+    background-image: linear-gradient(rgba(16, 143, 110, 0.7),rgba(16, 143, 100, 0.7)),url(../../../images/events_428420591645880340.jpg);
+  padding: 5rem 0;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* digital */
+.digital-business{
+    background-image:linear-gradient(rgba(245, 244, 243, 0.7),rgba(245, 244, 243, 0.7)), url(../../../images/pattern-2.png);
+    height: 27rem;
+    padding: 3rem 0;
+}
+
+
+/* previous works */
+
+.previous-works{
+margin: 2rem 0;
+height: 22rem !important;
+
+}
+.owl-carousel{
+    padding: 0 1rem;
+}
+
+/* clients-opinion */
+.clients-opinion{
+    height: 40rem !important;
+    background-color: var(--background);
+    padding: 1rem 0;
+    position: relative;
+}
+.clients-opinion .card{
+    padding-top: 2rem !important;
+    background-color: var(--white-color);
+    height: 25rem;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+.clients-opinion .card-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: alarm 1s infinite ;
+}
+.clients-opinion .card-image-inner{
+ height: 7rem;
+ width: 7rem;
+ border-radius: 50%;
+ overflow: hidden;
+ border: 1px solid black;
+}
+.clients-opinion .card-text{
+text-align: center;
+}
+
+.clients-opinion h3{
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    color: var(--blue);
+}
+.clients-opinion  h4{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    
+}
+.clients-opinion p{
+    font-size: 1.1rem;
+    margin-top: .5rem;
+
+}
+
+/* our-clients */
+.our-clients{
+    /* height:16rem ; */
+    padding: 2rem 0;
+}
+.our-clients .item{
+    border: 2px solid var(--background);
+    padding: 1px;
+}
+.our-clients img{
+    border: 2px solid var(--background);
+    padding: 20px !important;
+}
+.our-clients a{
+color: var(--black-color);
+font-size: 1rem;
+transition: all .5s ease-in;
+}
+.our-clients button{
+padding: .5rem 1rem;
+border: 1px var(--black-color) solid;
+background-color: transparent;
+position: relative;
+overflow: hidden;
+
+}
+.our-clients button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--sec-color);
+    z-index: -1;
+    transition: all .5s ease-in;
+}
+.our-clients button:hover::after{
+right: 0;
+
+}
+.our-clients button:hover a{
+color: white;
+
+}
+/* footer */
+footer{
+    margin-top: 0;
+    background-color:var(--sec-color);
+   /* height: 25rem; */
+   position: relative;
+   color: var(--white-color);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   bottom: 0;
+   overflow: hidden;
+}
+.map{
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.map img{
+    width: 100%;
+}
+footer .container{
+    padding-top: 3rem ;
+}
+footer .container h4{
+    font-size: 1.3rem;
+    padding: 5px ;
+    font-weight: 400;
+}
+footer ul li{
+    font-size: 1.1rem;
+    padding: 5px;
+    font-weight: 300;
+}
+footer ul li span{
+    padding-right: 15px;
+}
+
+.sec-col {
+   
+    display: flex;
+}
+.sec-col a{
+   cursor: pointer;
+   padding-right: 10px;
+}
+.last-col li input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: var(--sec-color);
+    
+}
+.last-col li input::placeholder{
+    color: white;
+    padding-right: 5px;
+}
+.last-col li{
+   
+    position: relative;
+}
+.last-col button{
+    height: 40px;
+    width: 30%;
+    position: absolute;
+    background-color: var(--pink);
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    margin: 5px 0 0 5px;
+    color: var(--white-color);
+}
+
+
+/* media */
+@media (max-width:1000px){
+    .media{
+        display: none;
+    }
+}

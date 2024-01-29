@@ -1,0 +1,20 @@
+
+.counter-card-image{
+    margin: auto;
+    width: 25%;
+}
+.counter-card-image img{
+    display: block;
+    width: 100%;
+}
+
+.counter-card h4{
+    color: var(--white-color);
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.counter-card p{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    
+}

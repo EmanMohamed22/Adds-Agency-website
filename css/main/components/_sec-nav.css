@@ -1,0 +1,40 @@
+nav{
+font-size: 1rem;
+}
+nav .email-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.email-icon{
+    margin: 0 15px;
+}
+
+ .email-nav .nav-link {
+   padding: 0 !important;
+} 
+ .email-text {
+font-size: 1rem;
+
+} 
+ .email-text span{
+color: #999;
+
+} 
+.sec-nav .nav-item {
+    border-left: 1px solid rgba(0, 0, 0, 0.34);
+    padding-left: 20px;
+}
+.sec-nav .nav-item a {
+   color: var(--font-color);
+}
+.icons-list{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+.shop-basket{
+    display: flex;
+    align-items: center;
+}

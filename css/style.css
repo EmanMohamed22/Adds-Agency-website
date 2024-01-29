@@ -1,0 +1,14 @@
+@import "main/abstracts/_variables.css";
+@import "main/base/_animations.css";
+@import "main/base/_typography.css";
+@import "main/base/_base.css";
+@import "main/base/_utilities.css";
+@import "main/pages/_home.css";
+@import "main/pages/_sign-up.css";
+@import "main/components/_sec-nav.css";
+@import "main/components/_firstnav.css";
+@import "main/components/_third-nav.css";
+@import "main/components/_card.css";
+@import "main/components/_about-card.css";
+@import "main/components/_counter-card.css";
+@import "main/components/_digital-card.css";

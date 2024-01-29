@@ -1,0 +1,35 @@
+.third-nav .container{
+    border-top: 1px solid #C8C9D0;
+
+}
+
+.third-nav  ul li{
+    list-style: none;
+    position: relative;
+
+}
+.third-nav a{
+    font-size: 1.2rem;
+    color: var(--font-color) !important;
+    margin-left: .5rem;
+}
+.third-nav a:hover{
+    
+    color: var(--red) !important;
+    
+}
+.third-nav ul li::after{
+content: "";
+height: 2px;
+background-color: var(--red);
+width: 0px;
+position: absolute;
+top: 100%;
+left: 5%;
+transition: all .5s;
+}
+.third-nav ul li:hover::after{
+
+width: 90%;
+
+}

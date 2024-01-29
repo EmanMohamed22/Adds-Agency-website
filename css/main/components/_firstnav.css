@@ -1,0 +1,27 @@
+.first-nav{
+    background-image: linear-gradient(to left ,var(--sec-color),var(--ter-color)); 
+    font-size: 1rem;
+    
+ }
+ .first-nav ul{
+     display: flex;
+     justify-content: end;
+     list-style: none;
+     
+ }
+ .first-nav ul li{
+ 
+     margin: .5rem 1rem;
+     color: var(--white-color);
+     background-color: var(--blue);
+     border-radius: 3px;
+     padding: 1px 5px;
+ }
+ .first-nav ul li:hover{
+     background-color: var(--hover);
+    
+ }
+ .first-nav ul li a {
+     color: var(--white-color);
+ }
+ 
